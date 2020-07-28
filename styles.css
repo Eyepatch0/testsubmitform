@@ -1,0 +1,13 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(73, 65, 65);
+    margin: 0;
+    display: block;
+    background-image: url(https://cdn130.picsart.com/292423267041201.jpg?type=webp&to=min&r=640);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

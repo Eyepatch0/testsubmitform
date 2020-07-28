@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery <Form></Form></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header> <h1 id="title">Survey <form action=""></form></h1></header>
+    <p id="description">Welcome to this survey form!</p>
+    <form action="" id="survey-form">
+        <div>
+            <label id="name-label" for="name" >Enter name:</label>
+            <input type="text" name="name" placeholder="Name" id="name" required>
+        </div>
+        <div>
+            <label id="email-label" for="email">Enter email:</label>
+            <input type="email" name="email" placeholder="Email" id="email" pattern=".+@gmail.com" size="30" required>
+        </div>
+        <div>
+            <label id="number-label" for="number">Enter Number</label>
+            <input type="number" name="number" placeholder="number" id="number" min="1" max="100" >
+        </div>
+        <div>
+            <label for="dropdown">Select an option:</label>
+            <select name="dropdown" id="dropdown" required>
+                <option  value="nothing" disabled>select an option</option>
+                <option value="anime">anime</option>
+                <option value="manga">manga</option>
+                <option value="light-novel">light-novel</option>
+            </select>
+        </div>
+        <div>
+            <p>Do you like to code?</p>
+            <div>
+                <input type="radio" name="radio" value="absolutely">
+                <label for="radio">absolutely</label>
+            </div>
+            <div>
+                <input type="radio" name="radio" value="yes">
+                <label for="radio">yes</label>
+            </div>
+            <div>
+                <input type="radio" name="radio" value="not much">
+                <label for="radio">not much</label>
+            </div>
+        </div>
+        <div>
+            <p>What have you learnt ?</p>
+            <div>
+                <label><input type="checkbox" name="checkbox" value="html" checked>HTML</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="checkbox" value="css">CSS</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="checkbox" value="js">JS</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea placeholder="Enter your opnion here..."></textarea>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>
